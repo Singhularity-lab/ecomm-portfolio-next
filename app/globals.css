@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cursor-pointer { cursor: pointer; }
+.card-bg { background: linear-gradient(186.47deg, rgba(255, 253, 253, 0.4) -20.85%, rgba(255, 253, 253, 0.2) -20.83%, rgba(255, 255, 255, 0) 116.4%);  }
+.text-gradient-1 {background: linear-gradient(140.37deg, #3F16BE 31.95%, #FF6654 75.96%); background-clip: text; color: transparent;}
+.text-gradient-2 {background: radial-gradient(43.73% 66.92% at 0.08% 16.81%, #3C6DD9 0%, #FF888F 98.23%); background-clip: text; color: transparent;}
+.text-gradient-3 {background: linear-gradient(125.03deg, #351A88 22.79%, #FF6654 75.49%); background-clip: text; color: transparent;}
+.text-gradient-4 {background: linear-gradient(123.38deg, #351A88 21.26%, #FF6654 58.34%); background-clip: text; color: transparent;}
+.footer-gradient-bg {background: linear-gradient(179.35deg, rgba(255, 255, 255, 0.1197) -36.93%, rgba(255, 255, 255, 0) 115.78%); }
