@@ -14,7 +14,7 @@ const NewArrival = () => {
           More Products <img src={arrowRight.src} className="w-[1.25rem] h-[1.25rem]"></img>
         </span>
       </div>
-      <div className="overflow-x-scroll w-screen relative mt-8 mb-10 flex gap-10">
+      <div className=" relative mt-8 mb-10 flex ">
         <div className="">
           <div className="w-[262px] absolute top-3 left-3 ">
             <div className="flex justify-between w-[243px]">
