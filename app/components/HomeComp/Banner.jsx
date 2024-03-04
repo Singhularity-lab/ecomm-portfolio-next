@@ -3,7 +3,7 @@ import mobBanner from '../../../public/static/images/home-banner-mob.png';
 
 const Banner = () => {
   return (
-    <div className=" px-[2rem] md:px-[10rem]">
+    <div className=" px-[2rem] md:px-[6rem]  2xl:px-[25rem] align-center ">
       <div className="">
         <img className="hidden xs:block" src={deskBanner.src}></img>
         <img className="block xs:hidden" src={mobBanner.src}></img>

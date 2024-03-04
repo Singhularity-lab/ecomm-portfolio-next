@@ -5,7 +5,7 @@ import cartIcon from '../../../public/static/images/cart-icon.png';
 
 const Header = () => {
   return (
-    <div className="top-0 flex py-auto justify-between relative items-center py-[1rem] px-[2rem] md:px-[10rem] ">
+    <div className="top-0 flex py-auto justify-between relative items-center py-[1rem] px-[2rem] md:px-[6rem]  2xl:px-[25rem] align-center ">
       <img src={brandLogo.src}></img>
       <div className="hidden md:flex">
         <ul className="flex gap-2 lg:gap-6 text-sm sm:text-base font-grotesk text-neutralDark ">
