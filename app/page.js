@@ -1,3 +1,4 @@
+import Article from './components/HomeComp/Article';
 import Banner from './components/HomeComp/Banner';
 import Category from './components/HomeComp/Category';
 import NewArrival from './components/HomeComp/NewArrival';
@@ -12,6 +13,7 @@ const HomePage = () => {
       <NewArrival />
       <Support />
       <Sale />
+      <Article />
     </>
   );
 };
