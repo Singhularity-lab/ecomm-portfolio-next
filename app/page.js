@@ -4,6 +4,7 @@ import Category from './components/HomeComp/Category';
 import NewArrival from './components/HomeComp/NewArrival';
 import Sale from './components/HomeComp/Sale';
 import Support from './components/HomeComp/Support';
+import Newsletter from './components/common/Newsletter';
 
 const HomePage = () => {
   return (
@@ -14,6 +15,7 @@ const HomePage = () => {
       <Support />
       <Sale />
       <Article />
+      <Newsletter />
     </>
   );
 };
