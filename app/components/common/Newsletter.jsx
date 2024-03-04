@@ -1,4 +1,4 @@
-import rightImg from '../../../public/static/images/sofa-newsletter.jpeg';
+// import rightImg from '../../../public/static/images/sofa-newsletter.jpeg';
 import leftImg from '../../../public/static/images/drawer-newsletter.jpeg';
 import emailIc from '../../../public/static/images/email.png';
 
