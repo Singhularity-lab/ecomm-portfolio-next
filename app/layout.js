@@ -1,7 +1,10 @@
-import { Inter } from 'next/font/google';
+import { Inter, Poppins, Space_Grotesk } from 'next/font/google';
 import './globals.css';
+import Header from './components/common/Header';
 
 const inter = Inter({ subsets: ['latin'] });
+const space_grotesk = Space_Grotesk({ subsets: ['latin'], variable: '--font-space-grotesk', display: 'swap', weight: '500' });
+const poppins = Poppins({ subsets: ['latin'], variable: '--font-poppins', display: 'swap', weight: '500' });
 
 export const metadata = {
   title: 'Crypto homepage',
@@ -11,7 +14,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} ${space_grotesk.variable} ${poppins.variable}`}>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
