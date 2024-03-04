@@ -5,22 +5,22 @@ import cartIcon from '../../../public/static/images/cart-icon.png';
 
 const Header = () => {
   return (
-    <div className="top-0 flex py-auto justify-between relative items-center px-[2rem] py-[1rem] sm:px-[10rem] ">
+    <div className="top-0 flex py-auto justify-between relative items-center py-[1rem] px-[2rem] md:px-[10rem] ">
       <img src={brandLogo.src}></img>
-      <div>
-        <ul className="flex gap-6 text-sm sm:text-base font-grotesk text-neutralDark ">
+      <div className="hidden md:flex">
+        <ul className="flex gap-2 lg:gap-6 text-sm sm:text-base font-grotesk text-neutralDark ">
           <li className="cursor-pointer  hover:text-neutral1">Home</li>
-          <li className="cursor-pointer hover:text-neutral1">Shop</li>
+          <li className="cursor-pointer hover:text-neutral1 ">Shop</li>
           <li className="cursor-pointer hover:text-neutral1">Products</li>
-          <li className="sm:block hidden cursor-pointer hover:text-neutral1">Contact Us</li>
+          <li className="sm:block hidden cursor-pointer hover:text-neutral1">Contact</li>
         </ul>
       </div>
       <div>
-        <ul className="flex gap-4">
-          <li className="cursor-pointer">
+        <ul className="flex gap-1 lg:gap-4">
+          <li className="cursor-pointer hidden md:flex">
             <img src={searchIcon.src} className="w-[1.5rem]"></img>
           </li>
-          <li className="cursor-pointer">
+          <li className="cursor-pointer hidden md:flex">
             <img src={userIcon.src} className="w-[1.5rem]"></img>
           </li>
           <li className="cursor-pointer">
