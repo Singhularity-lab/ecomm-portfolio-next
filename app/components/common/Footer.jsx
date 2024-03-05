@@ -3,7 +3,7 @@ import brandLogo from '../../../public/static/images/white-logo.png';
 const Footer = () => {
   return (
     <div className="bg-neutral1 px-[2rem] md:px-[6rem]  2xl:px-[25rem] text-white py-16">
-      <div className="flex gap-8 justify-between">
+      <div className="flex flex-col sm:flex-row gap-8 justify-between">
         <div className="flex gap-8">
           <img src={brandLogo.src}></img>
           <span className="text-neutralDark">|</span>
