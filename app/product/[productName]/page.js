@@ -11,6 +11,7 @@ import colors from '../../../public/static/images/product-colors.png';
 import heart from '../../../public/static/images/heart-sm.png';
 import add from '../../../public/static/images/Add.png';
 import minus from '../../../public/static/images/Minus.png';
+import NewArrival from '@/app/components/common/NewArrival';
 
 const ProductPage = () => {
   return (
@@ -107,14 +108,9 @@ const ProductPage = () => {
               <AccordionContent>Yes. It&apos;s animated by default, but you can disable it if you prefer.</AccordionContent>
             </AccordionItem>
           </Accordion>
-
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
         </div>
       </div>
+      <NewArrival />
     </div>
   );
 };
